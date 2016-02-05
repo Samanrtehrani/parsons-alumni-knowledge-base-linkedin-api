@@ -1,0 +1,226 @@
+<html>
+ <head>
+
+ 	<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+	  	api_key:	77ilwxtmlu16n1
+	    onLoad: 	onLinkedInLoad
+	    authorize: 	false
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<link rel="stylesheet" href="css/foundation.css" />
+ </head>
+ <body>
+ 	<div id="banner">
+	 	<div class="row">
+	      <div class="large-12 columns">
+	        <h1>Welcome to Parsons LinkedIn System!</h1>
+	      </div>
+	    </div>
+	</div>
+	<div id="login-frame">
+	    <div class="row">
+	      <div class="large-12 columns callout">
+	        
+	          <h3>Please Login with your LinkedIn account!</h3>
+	          <div class="row">
+	            
+	            <div class="large-4 medium-4 columns">
+	              
+	 				<script type="in/Login">
+					</script>
+	            </div>
+	        </div>
+	      </div>
+	    </div>
+ 	
+ 	</div>
+ 	<div id="profile-frame" style="display:none;">
+	    <div class="row">
+	      <div class="large-12 columns callout">
+	        <div id="user-profile" >
+	        	a
+	        </div>
+	      </div>
+	    </div>
+ 	</div>
+ 	<div id="input-frame" style="display:none;">
+	    <div class="row">
+	      <div class="large-12 columns callout">
+	        
+	        <div	class="callout">
+				<label>Single Profile</label>
+	        	<div class="row">
+
+		           <div class="large-10 columns">
+		             	<input id="single-profile-input" type="text" placeholder="https://www.linkedin.com/in/maninilchiani" />
+		           </div>
+		           <div class="large-2 columns">
+		           		<button id="single-profile-submit" href="#" class="medium button">Submit</button>
+		           </div>
+		        </div>
+		    </div>
+		    <div	class="callout">
+		     <label>Batch Profiles</label>
+		     <p>please submit an excel file with <a href="http://wpdeve.parsons.edu/linkedin">this</a> template structure!</p>
+	        	<div class="row">
+
+		           <div class="large-2 columns">
+		             	<a href="#" class="medium button">Upload</a>
+		           </div>
+		           <div class="large-2 end columns">
+		           		<a href="#" class="medium secondary button">Submit</a>
+		           </div>
+		        </div>
+		    </div>
+	      
+	      </div>
+	    </div>
+ 	</div>
+ 	<div id="results-frame" style="display:none;">
+	    
+	    	<div class="row">
+	    	
+			    <div class="large-12 columns callout">
+			      <div class="large-3 columns">
+			       	<img id="profile-image" >
+			      </div>
+			      <div class="large-9 columns callout">
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>First Name</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Last Name</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Email</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Location</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Industry</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Position</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+
+			       	
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Education</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Date of Birth</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Phone Number</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Address</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>Twitter Account</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	
+			       	<div class="row">
+			       		<div class="large-3 columns">
+			       			<label>ID</label>
+			       		</div>
+			       		<div class="large-9 columns">
+			       			<div id="profileName" class="panel">
+
+			       			</div>
+			       		</div>
+			       	</div>
+			       	
+
+			      </div>
+				</div>
+
+	  		</div>
+	    </div>
+ 	
+	
+ </body>
+
+</html>
